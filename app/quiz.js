@@ -13,7 +13,7 @@ const allQuestions = {
     { question: "What colour is the centre of an archery target?", options: ["Red", "Blue", "Black", "Yellow"], answer: "Yellow" },
     { question: "Which country hosts the Tour de France?", options: ["Italy", "Spain", "Germany", "France"], answer: "France" },
     { question: "How many players are on a rugby union team?", options: ["11", "13", "15", "17"], answer: "15" },
-    { question: "In which sport would you perform a breaststroke?", options: ["Athletics", "Cycling", "Swimming", "Rowing"], answer: "Swimming" },
+    { question: "In which sport would you perform a backstroke?", options: ["Athletics", "Cycling", "Swimming", "Rowing"], answer: "Swimming" },
   ],
   medium: [
     { question: "Who holds the record for the most goals in a single World Cup tournament?", options: ["Pele", "Ronaldo", "Just Fontaine", "Gerd Muller"], answer: "Just Fontaine" },
