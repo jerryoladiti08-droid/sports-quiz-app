@@ -223,3 +223,190 @@ body {
 .btn-restart:hover {
   opacity: 0.9;
 }
+
+/* Difficulty selection */
+.subtitle {
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 2rem;
+}
+
+.difficulty-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.difficulty-btn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #2a2a3e;
+  border: 1.5px solid;
+  border-radius: 14px;
+  padding: 16px 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: left;
+}
+
+.difficulty-btn:hover {
+  background: #333350;
+  transform: translateX(4px);
+}
+
+.diff-emoji {
+  font-size: 1.8rem;
+}
+
+.diff-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.diff-label {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.diff-desc {
+  font-size: 12px;
+  color: #888;
+  margin-top: 2px;
+}
+
+.diff-arrow {
+  color: #888;
+  font-size: 18px;
+}
+
+.difficulty-tag {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Name screen */
+.name-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 1rem;
+}
+
+.name-input {
+  background: #2a2a3e;
+  border: 1.5px solid #3a3a5e;
+  border-radius: 12px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.name-input:focus {
+  border-color: #e94560;
+}
+
+.name-input::placeholder {
+  color: #555;
+}
+
+.btn-history {
+  width: 100%;
+  background: transparent;
+  color: #888;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: 'Segoe UI', sans-serif;
+  transition: all 0.2s ease;
+}
+
+.btn-history:hover {
+  background: #2a2a3e;
+  color: #ccc;
+}
+
+/* Welcome text */
+.welcome-text {
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+.welcome-text strong {
+  color: #f0f0f0;
+}
+
+/* Player tag */
+.player-tag {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 0.8rem;
+  font-family: 'Courier New', monospace;
+}
+
+/* History screen */
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 1rem;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2a2a3e;
+  border: 1px solid #3a3a5e;
+  border-radius: 10px;
+  padding: 12px 16px;
+}
+
+.history-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.history-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #f0f0f0;
+}
+
+.history-date {
+  font-size: 11px;
+  color: #666;
+}
+
+.history-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+
+.history-score {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.history-percent {
+  font-size: 11px;
+  color: #666;
+}
